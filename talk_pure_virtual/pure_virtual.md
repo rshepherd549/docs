@@ -435,5 +435,7 @@ Recent C++20 highlights:
 - `ranges` (required `concepts`). `ranges::algorithms` is done, but not everything else
 
 ---
+![width:600px](MSPureVirtual.PNG)
 https://visualstudio.microsoft.com/pure-virtual-cpp-event
 https://www.youtube.com/watch?v=c1ThUFISDF4
+https://github.com/rshepherd549/docs/tree/master/talk_pure_virtual
