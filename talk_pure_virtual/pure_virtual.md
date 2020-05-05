@@ -85,14 +85,14 @@ Use injections to encapsulate the boilerplate:
 ```cpp
 template <class Facade>
 struct typeclass_for {
-    void* concrerte_;
+    void* concrete_;
     vtable<Facade> const* vtable_;
     // constructors, forwarding functions etc.
 };
 struct Animal_facade {
     void speak();
 };
-using Animal = typeclass for <Animal_facade>;
+using Animal = typeclass_for <Animal_facade>;
 ```
 Could include policies to specialize memory management and function locality.
 
